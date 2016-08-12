@@ -1,0 +1,23 @@
+﻿Build started 12-Aug-16 12:09:36 AM.
+     1>Project "C:\Users\goopd\Documents\Visual Studio 2015\Projects\JemEngine\JemEngine\JemEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\goopd\Documents\Visual Studio 2015\Projects\JemEngine\JemEngine\Libs\glfw-3.2.bin.WIN32\include\GLFW" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D GLEW_STATIC /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp Window.cpp
+         Window.cpp
+     1>c:\users\goopd\documents\visual studio 2015\projects\jemengine\jemengine\window.cpp(38): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\goopd\documents\visual studio 2015\projects\jemengine\jemengine\window.cpp(98): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\goopd\documents\visual studio 2015\projects\jemengine\jemengine\window.cpp(99): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         Main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\goopd\Documents\Visual Studio 2015\Projects\JemEngine\Debug\JemEngine.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\goopd\Documents\Visual Studio 2015\Projects\JemEngine\JemEngine\Libs\glfw-3.2.bin.WIN32\lib-vc2015" glew32s.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\goopd\Documents\Visual Studio 2015\Projects\JemEngine\Debug\JemEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\goopd\Documents\Visual Studio 2015\Projects\JemEngine\Debug\JemEngine.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Vector2.obj
+         Debug\Window.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\goopd\Documents\Visual Studio 2015\Projects\JemEngine\Debug\vc120.pdb'; linking object as if no debug info
+         JemEngine.vcxproj -> C:\Users\goopd\Documents\Visual Studio 2015\Projects\JemEngine\Debug\JemEngine.exe
+     1>Done Building Project "C:\Users\goopd\Documents\Visual Studio 2015\Projects\JemEngine\JemEngine\JemEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.14
